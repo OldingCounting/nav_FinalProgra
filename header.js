@@ -78,7 +78,7 @@ a = parseInt(a.replace('px',''));
 			hamburguesa_estado_pc = false;
 		}
 		else {
-			nav.style.width="calc(25% - 8vh)"
+			nav.style.width="calc(30% - 8vh)"
 			perfil.style.transform = "translateX(0)"
 
 			//Borrar la letra al costado de cada elemento del nav
@@ -110,6 +110,7 @@ a = parseInt(a.replace('px',''));
 	}
 
 	else{
+			nav.style.width = "200px"
 			if (hamburguesa_estado_cel) {
 				nav.style.left = '-300px'
 				hamburguesa_estado_cel = false
